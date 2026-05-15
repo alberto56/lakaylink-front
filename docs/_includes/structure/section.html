@@ -1,0 +1,9 @@
+{% assign _data_source = _block.data_source | default: '' %}
+{% if _block.structure == '' %}
+{% elsif _block.structure == 'our-products-dynamic' %}
+  {% include sections/our-products-dynamic.html %}
+{% elsif _block.structure == 'our-products-static' %}
+  {% include sections/our-products-static.html %}
+{% else %}
+  <p>Block structure "{{ _block.structure }}" not recognized.</p>
+{% endif %}

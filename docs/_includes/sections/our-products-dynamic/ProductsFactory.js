@@ -1,0 +1,4 @@
+class ProductsFactory {
+  fromJson(json) {
+  }
+}

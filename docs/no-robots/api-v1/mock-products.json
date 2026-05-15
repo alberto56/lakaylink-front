@@ -1,0 +1,2038 @@
+{
+  "jsonapi": {
+    "version": "1.1",
+    "meta": {
+      "links": {
+        "self": {
+          "href": "http://jsonapi.org/format/1.1/"
+        }
+      }
+    }
+  },
+  "data": [
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 1,
+        "langcode": "en",
+        "status": true,
+        "title": "Cuminx",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-25T16:51:04+00:00",
+        "changed": "2026-04-25T17:18:13+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P1"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "87f1c7ae-b7be-4633-95b9-d38cfdc50c85",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "87f1c7ae-b7be-4633-95b9-d38cfdc50c85",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "d3e20f0a-387c-48b8-9aa9-113a9b3aced3",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "51e64e3c-56c6-41ad-a464-a30657fc4d11",
+            "meta": {
+              "drupal_internal__target_id": 2
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "d867f731-3ca5-4d0c-bedb-50d5e17a1101",
+            "meta": {
+              "drupal_internal__target_id": 3
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "22ceba2e-97c3-4039-bf41-54b640e6dd27",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 20,
+        "langcode": "en",
+        "status": true,
+        "title": "TEST_01",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-25T17:00:35+00:00",
+        "changed": "2026-04-25T17:00:35+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P20"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "d952f2a2-0164-47b7-bda6-c0f5daff4e56",
+              "meta": {
+                "drupal_internal__target_id": 20
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "d952f2a2-0164-47b7-bda6-c0f5daff4e56",
+            "meta": {
+              "drupal_internal__target_id": 20
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "84f6aaf3-bdf0-4806-b6aa-31bf69119aef",
+            "meta": {
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "63cefed0-bad7-4df5-8c9f-2744dfc277bf",
+            "meta": {
+              "drupal_internal__target_id": 5
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "b7e4be79-6dbb-47f6-be02-f227a42b55f5",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "c55fd74f-00ce-4f49-893e-330d673dd7da",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 22,
+        "langcode": "en",
+        "status": true,
+        "title": "Spinach",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-29T22:04:45+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P2"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "41ab78a4-2036-45cc-89f2-e9236c89a0b7",
+              "meta": {
+                "drupal_internal__target_id": 22
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "41ab78a4-2036-45cc-89f2-e9236c89a0b7",
+            "meta": {
+              "drupal_internal__target_id": 22
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "e5d17387-dfd4-45f5-9761-79ebca4117ad",
+            "meta": {
+              "drupal_internal__target_id": 4
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "63cefed0-bad7-4df5-8c9f-2744dfc277bf",
+            "meta": {
+              "drupal_internal__target_id": 5
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "b7e4be79-6dbb-47f6-be02-f227a42b55f5",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "069c011e-242a-4d78-aafd-0a65f32ba4da",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 23,
+        "langcode": "en",
+        "status": true,
+        "title": "Wheat",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P3"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "0a8459b2-e9fe-4bd1-8deb-513c840b6d7f",
+              "meta": {
+                "drupal_internal__target_id": 23
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "0a8459b2-e9fe-4bd1-8deb-513c840b6d7f",
+            "meta": {
+              "drupal_internal__target_id": 23
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "d3e20f0a-387c-48b8-9aa9-113a9b3aced3",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "4de28cbb-482e-4dd4-a038-41fcee1e8bb0",
+            "meta": {
+              "drupal_internal__target_id": 7
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "10f9138d-d351-4b12-bfc5-84fa9721ffe7",
+            "meta": {
+              "drupal_internal__target_id": 8
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "3962e6bb-9222-43b9-8928-e4cca7564d3d",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 25,
+        "langcode": "en",
+        "status": true,
+        "title": "Grapes",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P5"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "70310701-ddcd-451e-9d35-a87b125d32db",
+              "meta": {
+                "drupal_internal__target_id": 25
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "70310701-ddcd-451e-9d35-a87b125d32db",
+            "meta": {
+              "drupal_internal__target_id": 25
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "84f6aaf3-bdf0-4806-b6aa-31bf69119aef",
+            "meta": {
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "ca6f7a0e-33ec-4585-81a5-4a38462aeee2",
+            "meta": {
+              "drupal_internal__target_id": 11
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "77ca0328-5569-4435-aa45-795e790f74e1",
+            "meta": {
+              "drupal_internal__target_id": 12
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "d3aeda0b-0531-43a7-99ee-b071f38f131d",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 26,
+        "langcode": "en",
+        "status": true,
+        "title": "Dal",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P6"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "a25203f6-f2e7-416a-9313-a3f29cdcef11",
+              "meta": {
+                "drupal_internal__target_id": 26
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "a25203f6-f2e7-416a-9313-a3f29cdcef11",
+            "meta": {
+              "drupal_internal__target_id": 26
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "84f6aaf3-bdf0-4806-b6aa-31bf69119aef",
+            "meta": {
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "7345687e-f9af-4d06-a002-0812122190c9",
+            "meta": {
+              "drupal_internal__target_id": 13
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "10f9138d-d351-4b12-bfc5-84fa9721ffe7",
+            "meta": {
+              "drupal_internal__target_id": 8
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "965e800e-6f0e-4a2b-ad2c-2f5694c622ab",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 27,
+        "langcode": "en",
+        "status": true,
+        "title": "Butter",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P7"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "7373888c-b624-499d-ab70-55c0aad0990c",
+              "meta": {
+                "drupal_internal__target_id": 27
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "7373888c-b624-499d-ab70-55c0aad0990c",
+            "meta": {
+              "drupal_internal__target_id": 27
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "2f7e02c3-33b0-47b9-b1bb-d35f45903939",
+            "meta": {
+              "drupal_internal__target_id": 9
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "7345687e-f9af-4d06-a002-0812122190c9",
+            "meta": {
+              "drupal_internal__target_id": 13
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "c18e66fc-2bc8-49ab-9aa1-5052c0ef4e56",
+            "meta": {
+              "drupal_internal__target_id": 14
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "a494aba7-845c-4c51-ac0f-99f7cb2a76ba",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 28,
+        "langcode": "en",
+        "status": true,
+        "title": "Apple",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P8"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "80a2e800-d70f-468b-b706-34091ba13038",
+              "meta": {
+                "drupal_internal__target_id": 28
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "80a2e800-d70f-468b-b706-34091ba13038",
+            "meta": {
+              "drupal_internal__target_id": 28
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "d3e20f0a-387c-48b8-9aa9-113a9b3aced3",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "ca6f7a0e-33ec-4585-81a5-4a38462aeee2",
+            "meta": {
+              "drupal_internal__target_id": 11
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "77ca0328-5569-4435-aa45-795e790f74e1",
+            "meta": {
+              "drupal_internal__target_id": 12
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 29,
+        "langcode": "en",
+        "status": true,
+        "title": "Onion",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P9"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "190448e2-1c27-49e4-b34a-a48d502e99be",
+              "meta": {
+                "drupal_internal__target_id": 29
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "190448e2-1c27-49e4-b34a-a48d502e99be",
+            "meta": {
+              "drupal_internal__target_id": 29
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "2f7e02c3-33b0-47b9-b1bb-d35f45903939",
+            "meta": {
+              "drupal_internal__target_id": 9
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "63cefed0-bad7-4df5-8c9f-2744dfc277bf",
+            "meta": {
+              "drupal_internal__target_id": 5
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "b7e4be79-6dbb-47f6-be02-f227a42b55f5",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "fb3305d5-767e-46f6-a90b-8a09e2cc6551",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 34,
+        "langcode": "en",
+        "status": true,
+        "title": "Chili",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P14"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "3977a0f8-4117-44aa-8cc1-d9a5fa003541",
+              "meta": {
+                "drupal_internal__target_id": 34
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "3977a0f8-4117-44aa-8cc1-d9a5fa003541",
+            "meta": {
+              "drupal_internal__target_id": 34
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "d3e20f0a-387c-48b8-9aa9-113a9b3aced3",
+            "meta": {
+              "drupal_internal__target_id": 1
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "51e64e3c-56c6-41ad-a464-a30657fc4d11",
+            "meta": {
+              "drupal_internal__target_id": 2
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "d867f731-3ca5-4d0c-bedb-50d5e17a1101",
+            "meta": {
+              "drupal_internal__target_id": 3
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 39,
+        "langcode": "en",
+        "status": true,
+        "title": "Tomato",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P19"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "83bf99b0-f60c-4ca1-bfff-a7c77746d3d8",
+              "meta": {
+                "drupal_internal__target_id": 39
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "83bf99b0-f60c-4ca1-bfff-a7c77746d3d8",
+            "meta": {
+              "drupal_internal__target_id": 39
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "84f6aaf3-bdf0-4806-b6aa-31bf69119aef",
+            "meta": {
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "63cefed0-bad7-4df5-8c9f-2744dfc277bf",
+            "meta": {
+              "drupal_internal__target_id": 5
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "b7e4be79-6dbb-47f6-be02-f227a42b55f5",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "commerce_product--grocery_product",
+      "id": "39a5cd0b-40bf-46de-89f3-b6f75d340031",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031"
+        }
+      },
+      "attributes": {
+        "drupal_internal__product_id": 40,
+        "langcode": "en",
+        "status": true,
+        "title": "TEST_01",
+        "path": {
+          "alias": null,
+          "pid": null,
+          "langcode": "en"
+        },
+        "created": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-04-30T16:55:06+00:00",
+        "default_langcode": true,
+        "content_translation_source": "und",
+        "content_translation_outdated": false,
+        "body": null,
+        "field_product_id": "P21"
+      },
+      "relationships": {
+        "commerce_product_type": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/commerce_product_type"
+            }
+          }
+        },
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/uid"
+            }
+          }
+        },
+        "stores": {
+          "data": [
+            {
+              "type": "commerce_store--online",
+              "id": "9ebb1a4c-8c7f-467e-9c1e-2383e104812f",
+              "meta": {
+                "drupal_internal__target_id": 1
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/stores"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/stores"
+            }
+          }
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "commerce_product_variation--grocery_variation",
+              "id": "4748eea3-33ce-4faa-b1e4-5040cb382f9d",
+              "meta": {
+                "drupal_internal__target_id": 40
+              }
+            }
+          ],
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/variations"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/variations"
+            }
+          }
+        },
+        "default_variation": {
+          "data": {
+            "type": "commerce_product_variation--grocery_variation",
+            "id": "4748eea3-33ce-4faa-b1e4-5040cb382f9d",
+            "meta": {
+              "drupal_internal__target_id": 40
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/default_variation"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/default_variation"
+            }
+          }
+        },
+        "field_brand": {
+          "data": {
+            "type": "taxonomy_term--brand",
+            "id": "84f6aaf3-bdf0-4806-b6aa-31bf69119aef",
+            "meta": {
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/field_brand"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/field_brand"
+            }
+          }
+        },
+        "field_category": {
+          "data": {
+            "type": "taxonomy_term--category",
+            "id": "63cefed0-bad7-4df5-8c9f-2744dfc277bf",
+            "meta": {
+              "drupal_internal__target_id": 5
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/field_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/field_category"
+            }
+          }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/field_image"
+            }
+          }
+        },
+        "field_sub_category": {
+          "data": {
+            "type": "taxonomy_term--sub_category",
+            "id": "b7e4be79-6dbb-47f6-be02-f227a42b55f5",
+            "meta": {
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/field_sub_category"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/field_sub_category"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "count": 12
+  },
+  "links": {
+    "self": {
+      "href": "https://lakaybeta.dcycleproject.org/api/product/grocery"
+    }
+  }
+}

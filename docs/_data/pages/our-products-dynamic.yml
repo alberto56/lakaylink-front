@@ -1,0 +1,3 @@
+sections:
+- structure: our-products-dynamic
+  data_source: "/no-robots/api-v1/mock-products.json"

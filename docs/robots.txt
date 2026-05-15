@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /no-robots/*
+Disallow: /style-guide/*
+Disallow: /fr/guide-style/*
+Disallow: /beta/*
