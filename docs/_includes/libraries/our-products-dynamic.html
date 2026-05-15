@@ -4,12 +4,7 @@
 {% elsif lib_phase == 'js' %}
   {% if lib_sections_our_products_dynamic == 'true' %}
   <script>
-    {% include sections/our-products-dynamic/ProductsFactory.js %}
     {% include sections/our-products-dynamic/Products.js %}
-    {% include sections/our-products-dynamic/ProductsApi.js %}
-    {% include sections/our-products-dynamic/ProductsPage.js %}
-    {% include sections/our-products-dynamic/ProductsSection.js %}
-    {% include sections/our-products-dynamic.js %}
   </script>
   {% endif %}
 {% endif %}
