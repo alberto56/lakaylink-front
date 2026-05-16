@@ -11,17 +11,31 @@
         const response = await fetch(apiUrl);
         const json = await response.json();
         const products = json.data || [];
+        const included = json.included || [];
 
         container.empty(); // clear previous content
 
         products.forEach((product, index) => {
           const title = product.attributes.title || "No Title";
 
-          // Extract price from default_variation if available
-          const variation = product.relationships?.default_variation?.data;
-          const price = variation?.meta?.drupal_internal__target_id 
-                        ? `$${variation.meta.drupal_internal__target_id}` 
-                        : "Price not available";
+          // Get the default variation id
+          const variationRef = product.relationships?.variations?.data?.[0];
+          let price = "Price not available";
+
+          if (variationRef) {
+            // Find the variation object in the included array
+            const variation = included.find(
+              inc => inc.type === variationRef.type && inc.id === variationRef.id
+            );
+
+            if (variation && variation.attributes?.price) {
+              const p = variation.attributes.price;
+              price = new Intl.NumberFormat('en-US', {
+                style: 'currency',
+                currency: p.currency_code
+              }).format(parseFloat(p.number));
+            }
+          }
 
           const image = settings.genericImage;
 

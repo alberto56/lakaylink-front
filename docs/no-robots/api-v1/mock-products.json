@@ -2045,11 +2045,11 @@
         "list_price": null,
         "price": {
           "number": "47500.000000",
-          "currency_code": "USA",
-          "formatted": "USA47,500.00"
+          "currency_code": "USD",
+          "formatted": "$47,500.00"
         },
         "created": "2026-04-25T16:51:04+00:00",
-        "changed": "2026-04-29T22:04:45+00:00",
+        "changed": "2026-05-16T12:20:15+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2124,11 +2124,11 @@
         "list_price": null,
         "price": {
           "number": "100.000000",
-          "currency_code": "USA",
-          "formatted": "USA100.00"
+          "currency_code": "USD",
+          "formatted": "$100.00"
         },
         "created": "2026-04-25T17:00:35+00:00",
-        "changed": "2026-04-30T15:26:21+00:00",
+        "changed": "2026-05-16T12:20:35+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2203,11 +2203,11 @@
         "list_price": null,
         "price": {
           "number": "304.000000",
-          "currency_code": "USA",
-          "formatted": "USA304.00"
+          "currency_code": "USD",
+          "formatted": "$304.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:18:30+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2282,11 +2282,11 @@
         "list_price": null,
         "price": {
           "number": "499.000000",
-          "currency_code": "USA",
-          "formatted": "USA499.00"
+          "currency_code": "USD",
+          "formatted": "$499.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:18:46+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2440,11 +2440,11 @@
         "list_price": null,
         "price": {
           "number": "369.000000",
-          "currency_code": "USA",
-          "formatted": "USA369.00"
+          "currency_code": "USD",
+          "formatted": "$369.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:19:20+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2519,11 +2519,11 @@
         "list_price": null,
         "price": {
           "number": "171.000000",
-          "currency_code": "USA",
-          "formatted": "USA171.00"
+          "currency_code": "USD",
+          "formatted": "$171.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:19:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2598,11 +2598,11 @@
         "list_price": null,
         "price": {
           "number": "494.000000",
-          "currency_code": "USA",
-          "formatted": "USA494.00"
+          "currency_code": "USD",
+          "formatted": "$494.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:19:47+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2677,11 +2677,11 @@
         "list_price": null,
         "price": {
           "number": "460.000000",
-          "currency_code": "USA",
-          "formatted": "USA460.00"
+          "currency_code": "USD",
+          "formatted": "$460.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:20:00+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2756,11 +2756,11 @@
         "list_price": null,
         "price": {
           "number": "427.000000",
-          "currency_code": "USA",
-          "formatted": "USA427.00"
+          "currency_code": "USD",
+          "formatted": "$427.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:16:09+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2835,11 +2835,11 @@
         "list_price": null,
         "price": {
           "number": "120.000000",
-          "currency_code": "USA",
-          "formatted": "USA120.00"
+          "currency_code": "USD",
+          "formatted": "$120.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:17:27+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2914,11 +2914,11 @@
         "list_price": null,
         "price": {
           "number": "100.000000",
-          "currency_code": "USA",
-          "formatted": "USA100.00"
+          "currency_code": "USD",
+          "formatted": "$100.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-04-30T16:55:06+00:00",
+        "changed": "2026-05-16T12:17:40+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2982,7 +2982,7 @@
   },
   "links": {
     "self": {
-      "href": "http://lakaybeta.dcycleproject.org/api/product/grocery?include=variations"
+      "href": "http://lakaybeta.dcycleproject.org/api/product/grocery?filter%5Bstatus%5D%5Bvalue%5D=1\u0026filter%5Bvariations.status%5D%5Bvalue%5D=1\u0026include=variations"
     }
   }
 }
