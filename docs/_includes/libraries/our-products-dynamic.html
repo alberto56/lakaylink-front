@@ -3,7 +3,9 @@
   {% assign lib_sections_our_products_dynamic = 'true' %}
 {% elsif lib_phase == 'js' %}
   {% if lib_sections_our_products_dynamic == 'true' %}
-    <script src="/assets/js/our-products-dynamic/Products.js"></script>
+  <script>
+    {% include sections/our-products-dynamic/Products.js %}
+  </script>
   {% endif %}
 {% endif %}
 {% endcapture %}
