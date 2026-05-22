@@ -53,8 +53,11 @@
                 }
               }
             }
+            console.log("json.data");
+            console.log(json.data);
 
-            const apiBase = new URL(data.links.self.href).origin;
+            // I have hardcoded api base url we have to make it dynamic.
+            const apiBase = "https://lakaybeta.dcycleproject.org";
             image = apiBase + image;
 
             const col = $(`
