@@ -54,7 +54,7 @@
               }
             }
 
-            const apiBase = window.location.origin;
+            const apiBase = new URL(data.links.self.href).origin;
             image = apiBase + image;
 
             const col = $(`
