@@ -29,7 +29,7 @@
           "langcode": "en"
         },
         "created": "2026-04-25T16:51:04+00:00",
-        "changed": "2026-05-21T16:01:09+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -161,6 +161,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/da8b8ae7-ab1b-4b5b-bf36-b7941ff7e32f/relationships/field_image"
             }
@@ -329,6 +332,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/22ceba2e-97c3-4039-bf41-54b640e6dd27/relationships/field_image"
             }
@@ -497,6 +503,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/c55fd74f-00ce-4f49-893e-330d673dd7da/relationships/field_image"
             }
@@ -665,6 +674,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/069c011e-242a-4d78-aafd-0a65f32ba4da/relationships/field_image"
             }
@@ -833,6 +845,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/3962e6bb-9222-43b9-8928-e4cca7564d3d/relationships/field_image"
             }
@@ -1001,6 +1016,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/d3aeda0b-0531-43a7-99ee-b071f38f131d/relationships/field_image"
             }
@@ -1169,6 +1187,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/965e800e-6f0e-4a2b-ad2c-2f5694c622ab/relationships/field_image"
             }
@@ -1337,6 +1358,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/a494aba7-845c-4c51-ac0f-99f7cb2a76ba/relationships/field_image"
             }
@@ -1505,6 +1529,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/e9ae82ed-8b5b-4dd9-ab8b-2bc76c88a1f8/relationships/field_image"
             }
@@ -1673,6 +1700,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fb3305d5-767e-46f6-a90b-8a09e2cc6551/relationships/field_image"
             }
@@ -1841,6 +1871,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/fd8dc4d5-dbbe-4ea7-b695-36a45f8fdbeb/relationships/field_image"
             }
@@ -2009,6 +2042,9 @@
         "field_image": {
           "data": null,
           "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/field_image"
+            },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product/grocery/39a5cd0b-40bf-46de-89f3-b6f75d340031/relationships/field_image"
             }
@@ -2056,7 +2092,7 @@
           "formatted": "$475.00"
         },
         "created": "2026-04-25T16:51:04+00:00",
-        "changed": "2026-05-21T16:01:09+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2111,6 +2147,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/87f1c7ae-b7be-4633-95b9-d38cfdc50c85/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "be3421a8-b931-4be7-8df6-c4c175d55f80",
+            "meta": {
+              "alt": "Cumin 2pcs",
+              "title": null,
+              "width": 1200,
+              "height": 1200,
+              "drupal_internal__target_id": 4
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/87f1c7ae-b7be-4633-95b9-d38cfdc50c85/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/87f1c7ae-b7be-4633-95b9-d38cfdc50c85/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2135,7 +2192,7 @@
           "formatted": "$475.00"
         },
         "created": "2026-05-21T16:01:09+00:00",
-        "changed": "2026-05-21T16:01:09+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2188,6 +2245,27 @@
             },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/ad9c30c4-f5bd-4330-a005-4afc256e4eb3/relationships/product_id"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "487444df-e678-42c4-a0ea-8162ec6f4964",
+            "meta": {
+              "alt": "Cumin 2pcs",
+              "title": null,
+              "width": 1144,
+              "height": 1044,
+              "drupal_internal__target_id": 6
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/ad9c30c4-f5bd-4330-a005-4afc256e4eb3/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/ad9c30c4-f5bd-4330-a005-4afc256e4eb3/relationships/field_image"
             }
           }
         }
@@ -2269,6 +2347,17 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/d952f2a2-0164-47b7-bda6-c0f5daff4e56/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/d952f2a2-0164-47b7-bda6-c0f5daff4e56/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/d952f2a2-0164-47b7-bda6-c0f5daff4e56/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2293,7 +2382,7 @@
           "formatted": "$304.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:18:30+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2348,6 +2437,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/41ab78a4-2036-45cc-89f2-e9236c89a0b7/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "f552a4d3-470a-4787-945f-03a095363b8d",
+            "meta": {
+              "alt": "Spinach 7pcs",
+              "title": null,
+              "width": 1144,
+              "height": 1076,
+              "drupal_internal__target_id": 7
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/41ab78a4-2036-45cc-89f2-e9236c89a0b7/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/41ab78a4-2036-45cc-89f2-e9236c89a0b7/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2372,7 +2482,7 @@
           "formatted": "$499.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:18:46+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2427,6 +2537,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/0a8459b2-e9fe-4bd1-8deb-513c840b6d7f/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "52d1bc06-c469-4d63-abce-e2d88d347405",
+            "meta": {
+              "alt": "Wheat 5kg",
+              "title": null,
+              "width": 1144,
+              "height": 1144,
+              "drupal_internal__target_id": 8
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/0a8459b2-e9fe-4bd1-8deb-513c840b6d7f/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/0a8459b2-e9fe-4bd1-8deb-513c840b6d7f/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2451,7 +2582,7 @@
           "formatted": "$183.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-21T16:01:09+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2506,6 +2637,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/70310701-ddcd-451e-9d35-a87b125d32db/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "910d5513-07dc-4c51-b598-10b51a07a7c2",
+            "meta": {
+              "alt": "Grapes 9pcs",
+              "title": null,
+              "width": 1144,
+              "height": 2034,
+              "drupal_internal__target_id": 10
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/70310701-ddcd-451e-9d35-a87b125d32db/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/70310701-ddcd-451e-9d35-a87b125d32db/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2530,7 +2682,7 @@
           "formatted": "$369.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:19:20+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2585,6 +2737,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/a25203f6-f2e7-416a-9313-a3f29cdcef11/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "9e43926c-62ef-4b40-a4d0-f39b3d499fa7",
+            "meta": {
+              "alt": "Dal 5kg",
+              "title": null,
+              "width": 1144,
+              "height": 1044,
+              "drupal_internal__target_id": 11
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/a25203f6-f2e7-416a-9313-a3f29cdcef11/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/a25203f6-f2e7-416a-9313-a3f29cdcef11/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2609,7 +2782,7 @@
           "formatted": "$171.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:19:34+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2664,6 +2837,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/7373888c-b624-499d-ab70-55c0aad0990c/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "afb74178-bb45-4664-aed5-2d16406663c5",
+            "meta": {
+              "alt": "Butter 5kg",
+              "title": null,
+              "width": 1144,
+              "height": 1076,
+              "drupal_internal__target_id": 12
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/7373888c-b624-499d-ab70-55c0aad0990c/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/7373888c-b624-499d-ab70-55c0aad0990c/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2688,7 +2882,7 @@
           "formatted": "$494.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:19:47+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2743,6 +2937,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/80a2e800-d70f-468b-b706-34091ba13038/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "1e5d8989-9f01-452b-820d-9f1bcbcd2032",
+            "meta": {
+              "alt": "Apple 1pcs",
+              "title": null,
+              "width": 1144,
+              "height": 860,
+              "drupal_internal__target_id": 13
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/80a2e800-d70f-468b-b706-34091ba13038/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/80a2e800-d70f-468b-b706-34091ba13038/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2767,7 +2982,7 @@
           "formatted": "$460.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:20:00+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2822,6 +3037,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/190448e2-1c27-49e4-b34a-a48d502e99be/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "4f44ae1d-1fbd-4684-b0dc-ddb33d89c4bf",
+            "meta": {
+              "alt": "Onion 2pcs",
+              "title": null,
+              "width": 1144,
+              "height": 1044,
+              "drupal_internal__target_id": 14
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/190448e2-1c27-49e4-b34a-a48d502e99be/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/190448e2-1c27-49e4-b34a-a48d502e99be/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2846,7 +3082,7 @@
           "formatted": "$427.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:16:09+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2901,6 +3137,27 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/3977a0f8-4117-44aa-8cc1-d9a5fa003541/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "9d4faf30-fbdd-43ac-9b5f-08d153e52635",
+            "meta": {
+              "alt": "Chili 9pcs",
+              "title": null,
+              "width": 1144,
+              "height": 1044,
+              "drupal_internal__target_id": 19
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/3977a0f8-4117-44aa-8cc1-d9a5fa003541/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/3977a0f8-4117-44aa-8cc1-d9a5fa003541/relationships/field_image"
+            }
+          }
         }
       }
     },
@@ -2925,7 +3182,7 @@
           "formatted": "$120.00"
         },
         "created": "2026-04-30T16:55:06+00:00",
-        "changed": "2026-05-16T12:17:27+00:00",
+        "changed": "2026-05-22T14:18:34+00:00",
         "default_langcode": true,
         "content_translation_source": "und",
         "content_translation_outdated": false,
@@ -2978,6 +3235,27 @@
             },
             "self": {
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/83bf99b0-f60c-4ca1-bfff-a7c77746d3d8/relationships/product_id"
+            }
+          }
+        },
+        "field_image": {
+          "data": {
+            "type": "file--file",
+            "id": "6f637046-6db5-4ed7-88b9-433c8f35a257",
+            "meta": {
+              "alt": "Tomato 6pcs",
+              "title": null,
+              "width": 1144,
+              "height": 1076,
+              "drupal_internal__target_id": 23
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/83bf99b0-f60c-4ca1-bfff-a7c77746d3d8/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/83bf99b0-f60c-4ca1-bfff-a7c77746d3d8/relationships/field_image"
             }
           }
         }
@@ -3059,6 +3337,479 @@
               "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/4748eea3-33ce-4faa-b1e4-5040cb382f9d/relationships/product_id"
             }
           }
+        },
+        "field_image": {
+          "data": null,
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/4748eea3-33ce-4faa-b1e4-5040cb382f9d/field_image"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/product_variation/grocery_variation/4748eea3-33ce-4faa-b1e4-5040cb382f9d/relationships/field_image"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "be3421a8-b931-4be7-8df6-c4c175d55f80",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/be3421a8-b931-4be7-8df6-c4c175d55f80"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 4,
+        "langcode": "en",
+        "filename": "IMAGNO_410.jpg",
+        "uri": {
+          "value": "public://IMAGNO_410.jpg",
+          "url": "/sites/default/files/IMAGNO_410.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 28945,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/be3421a8-b931-4be7-8df6-c4c175d55f80/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/be3421a8-b931-4be7-8df6-c4c175d55f80/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "487444df-e678-42c4-a0ea-8162ec6f4964",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/487444df-e678-42c4-a0ea-8162ec6f4964"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 6,
+        "langcode": "en",
+        "filename": "Book_Cover_Mockup.jpg",
+        "uri": {
+          "value": "public://Book_Cover_Mockup.jpg",
+          "url": "/sites/default/files/Book_Cover_Mockup.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 56005,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/487444df-e678-42c4-a0ea-8162ec6f4964/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/487444df-e678-42c4-a0ea-8162ec6f4964/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "f552a4d3-470a-4787-945f-03a095363b8d",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/f552a4d3-470a-4787-945f-03a095363b8d"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 7,
+        "langcode": "en",
+        "filename": "%28Urban%20Threads%29%20Cocoa%20Fedora_2.jpg",
+        "uri": {
+          "value": "public://%28Urban%20Threads%29%20Cocoa%20Fedora_2.jpg",
+          "url": "/sites/default/files/%2528Urban%2520Threads%2529%2520Cocoa%2520Fedora_2.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 125594,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/f552a4d3-470a-4787-945f-03a095363b8d/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/f552a4d3-470a-4787-945f-03a095363b8d/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "52d1bc06-c469-4d63-abce-e2d88d347405",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/52d1bc06-c469-4d63-abce-e2d88d347405"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 8,
+        "langcode": "en",
+        "filename": "pink-chair_0_21_0_2.jpg",
+        "uri": {
+          "value": "public://pink-chair_0_21_0_2.jpg",
+          "url": "/sites/default/files/pink-chair_0_21_0_2.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 73637,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/52d1bc06-c469-4d63-abce-e2d88d347405/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/52d1bc06-c469-4d63-abce-e2d88d347405/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "910d5513-07dc-4c51-b598-10b51a07a7c2",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/910d5513-07dc-4c51-b598-10b51a07a7c2"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 10,
+        "langcode": "en",
+        "filename": "pexels-furknsaglam-1596977-7101236.jpg",
+        "uri": {
+          "value": "public://pexels-furknsaglam-1596977-7101236.jpg",
+          "url": "/sites/default/files/pexels-furknsaglam-1596977-7101236.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 211835,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/910d5513-07dc-4c51-b598-10b51a07a7c2/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/910d5513-07dc-4c51-b598-10b51a07a7c2/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "9e43926c-62ef-4b40-a4d0-f39b3d499fa7",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/9e43926c-62ef-4b40-a4d0-f39b3d499fa7"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 11,
+        "langcode": "en",
+        "filename": "Book_Cover_Mockup6.jpg",
+        "uri": {
+          "value": "public://Book_Cover_Mockup6.jpg",
+          "url": "/sites/default/files/Book_Cover_Mockup6.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 97125,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/9e43926c-62ef-4b40-a4d0-f39b3d499fa7/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/9e43926c-62ef-4b40-a4d0-f39b3d499fa7/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "afb74178-bb45-4664-aed5-2d16406663c5",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/afb74178-bb45-4664-aed5-2d16406663c5"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 12,
+        "langcode": "en",
+        "filename": "Hiding%20Goat%20Print%20-%202_2.jpg",
+        "uri": {
+          "value": "public://Hiding%20Goat%20Print%20-%202_2.jpg",
+          "url": "/sites/default/files/Hiding%2520Goat%2520Print%2520-%25202_2.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 61719,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/afb74178-bb45-4664-aed5-2d16406663c5/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/afb74178-bb45-4664-aed5-2d16406663c5/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "1e5d8989-9f01-452b-820d-9f1bcbcd2032",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/1e5d8989-9f01-452b-820d-9f1bcbcd2032"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 13,
+        "langcode": "en",
+        "filename": "mediamodifier-7cERndkOyDw-unsplash.jpg",
+        "uri": {
+          "value": "public://mediamodifier-7cERndkOyDw-unsplash.jpg",
+          "url": "/sites/default/files/mediamodifier-7cERndkOyDw-unsplash.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 87987,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/1e5d8989-9f01-452b-820d-9f1bcbcd2032/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/1e5d8989-9f01-452b-820d-9f1bcbcd2032/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "4f44ae1d-1fbd-4684-b0dc-ddb33d89c4bf",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/4f44ae1d-1fbd-4684-b0dc-ddb33d89c4bf"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 14,
+        "langcode": "en",
+        "filename": "Book_Cover_Mockup9.jpg",
+        "uri": {
+          "value": "public://Book_Cover_Mockup9.jpg",
+          "url": "/sites/default/files/Book_Cover_Mockup9.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 89035,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/4f44ae1d-1fbd-4684-b0dc-ddb33d89c4bf/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/4f44ae1d-1fbd-4684-b0dc-ddb33d89c4bf/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "9d4faf30-fbdd-43ac-9b5f-08d153e52635",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/9d4faf30-fbdd-43ac-9b5f-08d153e52635"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 19,
+        "langcode": "en",
+        "filename": "Book_Cover_Mockup4.jpg",
+        "uri": {
+          "value": "public://Book_Cover_Mockup4.jpg",
+          "url": "/sites/default/files/Book_Cover_Mockup4.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 70686,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/9d4faf30-fbdd-43ac-9b5f-08d153e52635/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/9d4faf30-fbdd-43ac-9b5f-08d153e52635/relationships/uid"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "file--file",
+      "id": "6f637046-6db5-4ed7-88b9-433c8f35a257",
+      "links": {
+        "self": {
+          "href": "https://lakaybeta.dcycleproject.org/api/file/file/6f637046-6db5-4ed7-88b9-433c8f35a257"
+        }
+      },
+      "attributes": {
+        "drupal_internal__fid": 23,
+        "langcode": "en",
+        "filename": "%28Modern%20Furnishings%29%20White%20%26%20Wood%20Chair%20-%201_2.jpg",
+        "uri": {
+          "value": "public://%28Modern%20Furnishings%29%20White%20%26%20Wood%20Chair%20-%201_2.jpg",
+          "url": "/sites/default/files/%2528Modern%2520Furnishings%2529%2520White%2520%2526%2520Wood%2520Chair%2520-%25201_2.jpg"
+        },
+        "filemime": "image/jpeg",
+        "filesize": 111756,
+        "status": true,
+        "created": "2026-05-22T12:30:41+00:00",
+        "changed": "2026-05-22T12:30:41+00:00"
+      },
+      "relationships": {
+        "uid": {
+          "data": {
+            "type": "user--user",
+            "id": "15fcf504-66f4-4eb6-aa23-d74465eea354",
+            "meta": {
+              "drupal_internal__target_id": 0
+            }
+          },
+          "links": {
+            "related": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/6f637046-6db5-4ed7-88b9-433c8f35a257/uid"
+            },
+            "self": {
+              "href": "https://lakaybeta.dcycleproject.org/api/file/file/6f637046-6db5-4ed7-88b9-433c8f35a257/relationships/uid"
+            }
+          }
         }
       }
     }
@@ -3068,7 +3819,7 @@
   },
   "links": {
     "self": {
-      "href": "https://lakaybeta.dcycleproject.org/api/product/grocery?filter%5Bstatus%5D%5Bvalue%5D=1\u0026filter%5Bvariations.status%5D%5Bvalue%5D=1\u0026include=variations"
+      "href": "https://lakaybeta.dcycleproject.org/api/product/grocery?filter%5Bstatus%5D%5Bvalue%5D=1\u0026filter%5Bvariations.status%5D%5Bvalue%5D=1\u0026include=variations%2Cfield_image%2Cvariations.field_image"
     }
   }
 }

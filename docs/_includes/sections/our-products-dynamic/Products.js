@@ -5,7 +5,7 @@
       }, options);
   
       const container = this;
-  
+
       async function fetchProducts(apiUrl) {
         try {
           const response = await fetch(apiUrl);
@@ -21,7 +21,9 @@
             // Get the default variation id
             const variationRef = product.relationships?.variations?.data?.[0];
             let price = "Price not available";
-  
+
+            let image = settings.genericImage;
+
             if (variationRef) {
               // Find the variation object in the included array
               const variation = included.find(
@@ -35,10 +37,24 @@
                   currency: p.currency_code
                 }).format(parseFloat(p.number));
               }
+
+              // ---------------- IMAGE ----------------
+              const imageRef = variation?.relationships?.field_image?.data;
+
+              if (imageRef) {
+
+                // Find the image file entity in included
+                const imageFile = included.find(
+                  inc => inc.type === imageRef.type && inc.id === imageRef.id
+                );
+
+                // Drupal JSON:API file URL
+                if (imageFile?.attributes?.uri?.url) {
+                  image = imageFile.attributes.uri.url;
+                }
+              }
             }
-  
-            const image = settings.genericImage;
-  
+
             const col = $(`
               <div class="col-md-6 col-lg-4 col-xl-3">
                 <div class="product-item rounded wow fadeInUp" data-wow-delay="${0.1 * index}s">
