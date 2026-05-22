@@ -42,7 +42,6 @@
               const imageRef = variation?.relationships?.field_image?.data;
 
               if (imageRef) {
-
                 // Find the image file entity in included
                 const imageFile = included.find(
                   inc => inc.type === imageRef.type && inc.id === imageRef.id
@@ -54,6 +53,9 @@
                 }
               }
             }
+
+            const apiBase = window.location.origin;
+            image = apiBase + image;
 
             const col = $(`
               <div class="col-md-6 col-lg-4 col-xl-3">
