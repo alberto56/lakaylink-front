@@ -1,0 +1,23 @@
+name: Run Tests
+
+# Trigger the workflow on every push and pull request.
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository.
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      # Pull the official Drupal 10 base image.
+      - name: Test script
+        run: |
+          ./scripts/test.sh
