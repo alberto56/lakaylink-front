@@ -1,3 +1,18 @@
-ls -lah . | grep --ignore-case -E '\.jpe?g$' && { >&2 echo "Fail: JPEG files found in root directory"; exit 1; } || echo "No jpeg files found in root directory"
-ls -lah . | grep --ignore-case -E '\.png$' && { >&2 echo "Fail: PNG files found in root directory"; exit 1; } || echo "No png files found in root directory"
+checks=(
+  "JPEG:\.jpe?g$"
+  "PNG:\.png$"
+  "WEBP:\.webp$"
+)
+
+for check in "${checks[@]}"; do
+  label="${check%%:*}"
+  pattern="${check#*:}"
+  if ls -lah . | grep --ignore-case -E "$pattern"; then
+    >&2 echo "[fail] $label files found in root directory"
+    exit 1
+  else
+    echo "[ok] No $label files found in root directory; put them in ./docs/media/products/gonaives"
+  fi
+done
+
 echo "Moving on"
