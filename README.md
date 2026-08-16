@@ -1,4 +1,6 @@
-Lakay Link
+[![GitHub Actions](https://github.com/alberto56/lakaylink/actions/workflows/config.yml/badge.svg)](https://github.com/alberto56/lakaylink/actions/workflows/config.yml)
+
+Lakay Link Frontend
 =====
 
 Lakay Link is a service which allows expats to purchase goods for their families back home. We think that in certain cases this is a good alternative to sending money directly because the sender might want to control what is purchased.
