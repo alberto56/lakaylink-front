@@ -1,3 +1,19 @@
 name: LakayLink
 copyright_holder: Terre des jeunes
 whatsapp_url: "https://wa.me/50936507808"
+topmenu:
+- path:
+    en: "/support/"
+    fr: "/fr/support/"
+  title:
+    en: "Support"
+    fr: "Support"
+- path:
+    en: "/about/"
+    fr: "/fr/a-propos/"
+  title:
+    en: "About"
+    fr: "À propos"
+app_url:
+  fr: "https://lakaybeta.dcycleproject.org/fr/"
+  en: "https://lakaybeta.dcycleproject.org/"

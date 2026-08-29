@@ -1,1 +1,20 @@
 sections:
+- structure: presentation
+  title:
+    en: "Send supplies to your family in Gonaïves"
+    fr: "Envoyez des denrées à votre famille aux Gonaïves"
+  subtitle:
+    en: "We deliver weekly to their doorstep"
+    fr: "Nous livrons chaque semaine à leur porte"
+  steps:
+  - text:
+      en: "1. Look at our delivery area on the map."
+      fr: "1. Regardez notre zone de livraison sur la carte."
+  - text:
+      en: "2. Log in with your Google account."
+      fr: "2. Connectez-vous avec votre compte Google."
+  - text:
+      en: "3. Make your first order."
+      fr: "3. Passez votre première commande."
+- structure: our-products-dynamic
+  data_source: "//lakaybeta.dcycleproject.org/api/product/grocery"
