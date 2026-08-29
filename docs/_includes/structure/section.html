@@ -6,6 +6,8 @@
   {% include sections/our-products-static.html %}
 {% elsif _block.structure == 'text' %}
   {% include sections/text.html %}
+{% elsif _block.structure == 'presentation' %}
+  {% include sections/presentation.html %}
 {% else %}
   <p>Block structure "{{ _block.structure }}" not recognized.</p>
 {% endif %}
