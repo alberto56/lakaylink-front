@@ -4,6 +4,8 @@
   {% include sections/our-products-dynamic.html %}
 {% elsif _block.structure == 'our-products-static' %}
   {% include sections/our-products-static.html %}
+{% elsif _block.structure == 'text' %}
+  {% include sections/text.html %}
 {% else %}
   <p>Block structure "{{ _block.structure }}" not recognized.</p>
 {% endif %}

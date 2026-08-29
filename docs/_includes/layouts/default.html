@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Electro - Electronics Website Template</title>
+  <title>{{ site.data.site.name }}</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -46,14 +46,13 @@
     <div class="row gx-0 align-items-center">
       <div class="col-lg-4 text-center text-lg-start mb-lg-0">
         <div class="d-inline-flex align-items-center" style="height: 45px;">
-          <a href="#" class="text-muted me-2"> Help</a><small> / </small>
-          <a href="#" class="text-muted mx-2"> Support</a><small> / </small>
-          <a href="#" class="text-muted ms-2"> Contact</a>
+          <a href="{{ _t["Support URL"][page.lang] }}" class="text-muted me-2">{{ _t["Support"][page.lang] }}</a>
+          <small> /&nbsp;</small>
+          <a href="{{ _t["About URL"][page.lang] }}" class="text-muted me-2">{{ _t["About"][page.lang] }}</a>
         </div>
       </div>
       <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-        <small class="text-dark">Call Us:</small>
-        <a href="#" class="text-muted">(+012) 1234 567890</a>
+        <a href="{{ site.data.site.whatsapp_url }}" class="text-muted">{{ _t["Chat on WhatsApp"][page.lang] }}</a>
       </div>
       <div class="col-lg-4 text-center text-lg-end">
         <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -67,12 +66,12 @@
           </div>
           <div class="dropdown">
             <a href="#" class="dropdown-toggle text-muted mx-2" data-bs-toggle="dropdown"><small>
-                English</small></a>
+                {{ _t["Language"][page.lang] }}</small></a>
             <div class="dropdown-menu rounded">
-              <a href="#" class="dropdown-item"> English</a>
-              <a href="#" class="dropdown-item"> Turkish</a>
-              <a href="#" class="dropdown-item"> Spanol</a>
-              <a href="#" class="dropdown-item"> Italiano</a>
+              {% for lang in page.langs %}
+                {% assign lang_code = lang[0] %}
+                <a href="{{ lang[1] }}" class="dropdown-item">{{_t[lang_code][page.lang]}}</a>
+              {% endfor %}
             </div>
           </div>
           <div class="dropdown">
@@ -98,7 +97,7 @@
         <div class="d-inline-flex align-items-center">
           <a href="/" class="navbar-brand p-0">
             <h1 class="display-5 text-primary m-0"><i
-                class="fas fa-shopping-bag text-secondary me-2"></i>Electro</h1>
+                class="fas fa-shopping-bag text-secondary me-2"></i>{{ site.data.site.name }}</h1>
             <!-- <img src="/img/logo.png" alt="Logo"> -->
           </a>
         </div>
@@ -377,8 +376,8 @@
           <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
           <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
           <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-          Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>.
-          Distributed By <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
+          {{ _t["Designed By"][page.lang] }} <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>.
+          {{ _t["Distributed By"][page.lang] }} <a class="border-bottom text-white" href="https://themewagon.com">ThemeWagon</a>
         </div>
       </div>
     </div>
