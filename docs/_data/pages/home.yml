@@ -17,6 +17,7 @@ sections:
       en: "3. Make your first order."
       fr: "3. Passez votre première commande."
 - structure: our-products-dynamic
-  data_source: "//lakaybeta.dcycleproject.org/api/product/grocery"
+  data_source: "https://lakaybeta.dcycleproject.org/api/product/grocery?filter[status][value]=1&filter[variations.status][value]=1&include=variations,field_image,variations.field_image"
+
 - structure: our-products-dynamic
   data_source: "/no-robots/api-v1/mock-products.json"
