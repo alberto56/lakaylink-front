@@ -17,3 +17,4 @@ topmenu:
 app_url:
   fr: "https://lakaybeta.dcycleproject.org/fr/"
   en: "https://lakaybeta.dcycleproject.org/"
+api_base_url: "https://lakaybeta.dcycleproject.org"
