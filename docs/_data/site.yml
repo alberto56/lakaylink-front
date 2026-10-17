@@ -1,6 +1,7 @@
 name: LakayLink
 copyright_holder: Terre des jeunes
 whatsapp_url: "https://wa.me/50936507808"
+whatsapp_text: "+509 36 50 78 08"
 topmenu:
 - path:
     en: "/support/"
