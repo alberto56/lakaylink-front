@@ -1,7 +1,20 @@
 name: LakayLink
 copyright_holder: Terre des jeunes
 whatsapp_url: "https://wa.me/50936507808"
+call_us:
+  text:
+    en: "Call Us"
+    fr: "Appelez-nous"
+  phone:
+    en: "(+012) 1234 567890"
+    fr: "(+012) 1234 567890"
 topmenu:
+- path:
+    en: "/help/"
+    fr: "/fr/help/"
+  title:
+    en: "Help"
+    fr: "À l'aide"
 - path:
     en: "/support/"
     fr: "/fr/support/"
@@ -9,11 +22,11 @@ topmenu:
     en: "Support"
     fr: "Support"
 - path:
-    en: "/about/"
-    fr: "/fr/a-propos/"
+    en: "/contact/"
+    fr: "/fr/contact/"
   title:
-    en: "About"
-    fr: "À propos"
+    en: "Contact"
+    fr: "Contact"
 app_url:
   fr: "https://lakaybeta.dcycleproject.org/fr/"
   en: "https://lakaybeta.dcycleproject.org/"

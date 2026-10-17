@@ -46,14 +46,23 @@
     <div class="row gx-0 align-items-center">
       <div class="col-lg-4 text-center text-lg-start mb-lg-0">
         <div class="d-inline-flex align-items-center" style="height: 45px;">
+          <p>
           {% for topmenu in site.data.site.topmenu %}
             <a href="{{ topmenu.path[page.lang] }}" class="text-muted me-2">{{ topmenu.title[page.lang] }}</a>
             {% unless forloop.last %}<small> /&nbsp;</small>{% endunless %}
           {% endfor %}
+          </p>
         </div>
       </div>
       <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-        <a href="{{ site.data.site.whatsapp_url }}" class="text-muted">{{ _t["Chat on WhatsApp"][page.lang] }}</a>
+        <p>
+          <small class="text-dark">
+            {{ site.data.site.call_us.text[page.lang] }} :
+          </small>
+          <a class="text-muted" href="tel:{{ site.data.site.call_us.phone[page.lang] }}">
+            {{ site.data.site.call_us.phone[page.lang] }}
+          </a>
+        </p>
       </div>
       <div class="col-lg-4 text-center text-lg-end">
         <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -241,37 +250,34 @@
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-primary mb-4">Customer Service</h4>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Returns</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Site Map</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Testimonials</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> My Account</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Unsubscribe Notification</a>
+            {% for item in site.data.footer-nav.customer_service %}
+            <a href="{{ item.path[page.lang] }}" class="">
+              <i class="fas fa-angle-right me-2"></i>
+              {{ item.title[page.lang] }}
+            </a>
+            {% endfor %}
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-primary mb-4">Information</h4>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> About Us</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Delivery infomation</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Warranty</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> FAQ</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Seller Login</a>
+            {% for item in site.data.footer-nav.information %}
+            <a href="{{ item.path[page.lang] }}" class="">
+              <i class="fas fa-angle-right me-2"></i>
+              {{ item.title[page.lang] }}
+            </a>
+            {% endfor %}
           </div>
         </div>
         <div class="col-md-6 col-lg-6 col-xl-3">
           <div class="footer-item d-flex flex-column">
             <h4 class="text-primary mb-4">Extras</h4>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Brands</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Gift Vouchers</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Affiliates</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Wishlist</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Order History</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
-            <a href="#" class=""><i class="fas fa-angle-right me-2"></i> Track Your Order</a>
+            {% for item in site.data.footer-nav.extras %}
+            <a href="{{ item.path[page.lang] }}" class="">
+              <i class="fas fa-angle-right me-2"></i>
+              {{ item.title[page.lang] }}
+            </a>
+            {% endfor %}
           </div>
         </div>
       </div>
