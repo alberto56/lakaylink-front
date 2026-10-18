@@ -891,3 +891,14 @@
     background: var(--bs-primary) !important;
     color: var(--bs-secondary) !important;
 }
+
+.image-wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  object-fit: contain;
+}
