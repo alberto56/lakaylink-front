@@ -891,3 +891,10 @@
     background: var(--bs-primary) !important;
     color: var(--bs-secondary) !important;
 }
+
+.currency-usd-note {
+  display: block;
+  font-size: 0.8em;
+  color: #6c757d;
+  margin-top: 2px;
+}
