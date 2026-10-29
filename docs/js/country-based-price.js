@@ -13,7 +13,7 @@ function convertCurrencyPrices() {
 
     const apiBase = "{{ site.data.site.api_base_url }}";
 
-    fetch(apiBase + '/api/get-ip-to-currency-rate?SIMULATE-IP=176.31.84.249', {
+    fetch(apiBase + '/api/get-ip-to-currency-rate', {
       method: 'GET',
       cache: 'no-store',
       headers: {
