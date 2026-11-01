@@ -892,6 +892,15 @@
     color: var(--bs-secondary) !important;
 }
 
+.image-wrapper {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  object-fit: contain;
 .currency-usd-note {
   display: block;
   font-size: 0.8em;

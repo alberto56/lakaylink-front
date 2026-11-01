@@ -45,18 +45,13 @@
                 inc => inc.type === imageRef.type && inc.id === imageRef.id
               );
 
-              // Drupal JSON:API file URL
-              if (imageFile?.attributes?.uri?.url) {
-                image = imageFile.attributes.uri.url;
+              // Uses the Drupal image_300_300 image style
+              if (imageFile?.attributes?.image_style_uri?.image_300_300) {
+                image = imageFile?.attributes?.image_style_uri?.image_300_300;
               }
             }
 
-            if (image) {
-              // I have hardcoded api base url we have to make it dynamic.
-              const apiBase = "{{ site.data.site.api_base_url }}";
-              image = apiBase + image;
-            }
-            else {
+            if (!image) {
               console.log("---- image missing for product ----------");
               image = settings.genericImage;
             }
@@ -66,7 +61,9 @@
                   <div class="product-item rounded wow fadeInUp" data-wow-delay="${0.1 * index}s">
                     <div class="product-item-inner border rounded">
                       <div class="product-item-inner-item">
-                        <img src="${image}" class="img-fluid w-100 rounded-top" alt="${title}">
+                        <div class="image-wrapper">
+                          <img src="${image}" class="img-fluid w-100 rounded-top" alt="${title}">
+                        </div>
                         <div class="product-details">
                           <a href="#"><i class="fa fa-eye fa-1x"></i></a>
                         </div>
