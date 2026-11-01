@@ -901,4 +901,9 @@
 
 .image-wrapper img {
   object-fit: contain;
+.currency-usd-note {
+  display: block;
+  font-size: 0.8em;
+  color: #6c757d;
+  margin-top: 2px;
 }

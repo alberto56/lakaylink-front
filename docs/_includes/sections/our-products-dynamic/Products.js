@@ -110,4 +110,6 @@ $(document).ready(function() {
   $(".all-products-dynamic").each(function() {
     $(this).loadProducts();
   });
+  // Convert prices after all products have been added.
+  convertCurrencyPrices();
 });
