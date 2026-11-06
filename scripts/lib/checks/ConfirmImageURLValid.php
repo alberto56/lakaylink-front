@@ -7,7 +7,7 @@
  * extension, for example https://example.com/media/products/farine-bongu_2.jpeg
  * or https://via.placeholder.com/300.
  */
-function ConfirmImageURLValid(array $row): array {
+function ConfirmImageURLValid(array $row): string {
   foreach (['image_1', 'image_2', 'image_3'] as $key) {
     if (!array_key_exists('image_url', $row)) {
       return 'there is no image_url column';
