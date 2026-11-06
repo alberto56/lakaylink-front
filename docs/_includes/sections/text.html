@@ -3,7 +3,8 @@
     <div class="p-5 bg-light rounded">
       <div class="row g-4">
         <div class="col-12">
-          {{ _block.text[page.lang] | markdownify }}
+          {% capture _whatsapp %}[{{ site.data.site.whatsapp_text }}]({{ site.data.site.whatsapp_url }}){% endcapture %}
+          {{ _block.text[page.lang] | replace: "[whatsapp]", _whatsapp | markdownify }}
         </div>
       </div>
     </div>
