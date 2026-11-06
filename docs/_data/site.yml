@@ -8,6 +8,10 @@ call_us:
   phone:
     en: "(+012) 1234 567890"
     fr: "(+012) 1234 567890"
+whatsapp_text: "+509 36 50 78 08"
+whatsapp_contact:
+  en: "Contact us on WhatsApp"
+  fr: "Contactez-nous par WhatsApp"
 topmenu:
 - path:
     en: "/help/"
