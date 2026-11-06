@@ -5,6 +5,13 @@ Lakay Link Frontend
 
 Lakay Link is a service which allows expats to purchase goods for their families back home. We think that in certain cases this is a good alternative to sending money directly because the sender might want to control what is purchased.
 
+Local development 
+-----
+
+docker compose up
+
+Then go to http://localhost:4928
+
 Personas
 -----
 
