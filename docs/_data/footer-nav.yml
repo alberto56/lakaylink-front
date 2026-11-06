@@ -1,0 +1,107 @@
+customer_service:
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Contact Us"
+    fr: "Contactez-nous"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "My Account"
+    fr: "Mon compte"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Order History"
+    fr: "Histoire de l'Ordre"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Returns"
+    fr: "Résultats"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Site Map"
+    fr: "Carte du site"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Testimonials"
+    fr: "Témoignages"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Unsubscribe Notification"
+    fr: "Notification de désabonnement"
+
+information:
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "About Us"
+    fr: "À propos de nous"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Delivery information"
+    fr: "Informations de livraison"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Privacy Policy"
+    fr: "Politique de confidentialité"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Terms & Conditions"
+    fr: "Conditions générales"
+
+extras:
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: " Affiliates"
+    fr: "Affiliés"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Brands"
+    fr: "Marques"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Gift Vouchers"
+    fr: "Bons cadeaux"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Order History"
+    fr: "Histoire de l'Ordre"
+- path:
+    en: "/"
+    fr: "/fr"
+  title:
+    en: "Track Your Order"
+    fr: "Suivez votre commande"
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Wishlist"
+    fr: "Liste de souhaits"

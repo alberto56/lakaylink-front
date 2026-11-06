@@ -7,16 +7,31 @@ sections:
     en: "We deliver weekly to their doorstep"
     fr: "Nous livrons chaque semaine à leur porte"
   steps:
-  - text:
-      en: "1. Look at our delivery area on the map."
-      fr: "1. Regardez notre zone de livraison sur la carte."
-  - text:
-      en: "2. Log in with your Google account."
-      fr: "2. Connectez-vous avec votre compte Google."
-  - text:
-      en: "3. Make your first order."
-      fr: "3. Passez votre première commande."
-- structure: our-products-dynamic
-  data_source: "https://lakaybeta.dcycleproject.org/api/product/grocery"
-- structure: our-products-dynamic
-  data_source: "/no-robots/api-v1/mock-products.json"
+  - icon: "fas fa-map-marker-alt"
+    text:
+      en: '1\. Look at our delivery area on the map.'
+      fr: '1\. Regardez notre zone de livraison sur la carte.'
+    path:
+      en: "https://www.google.com/maps/d/viewer?hl=en&mid=1kTrqy1gQNNubT6uPOFsTLOwsjDIuYmA&ll=19.461806183224123%2C-72.67540890000001&z=14"
+      fr: "https://www.google.com/maps/d/viewer?hl=en&mid=1kTrqy1gQNNubT6uPOFsTLOwsjDIuYmA&ll=19.461806183224123%2C-72.67540890000001&z=14"
+  - icon: "fas fa-sign-in-alt"
+    text:
+      en: '2\. Log in with your Google account.'
+      fr: '2\. Connectez-vous avec votre compte Google.'
+    path:
+      en: "https://lakaybeta.dcycleproject.org/custom-login"
+      fr: "https://lakaybeta.dcycleproject.org/fr/custom-login"
+  - icon: "fab fa-whatsapp"
+    text:
+      en: '3\. Confirm the delivery location via WhatsApp.'
+      fr: '3\. Confirmez le lieu de livraison par WhatsApp.'
+    path:
+      en: "https://wa.me/50936507808"
+      fr: "https://wa.me/50936507808"
+  - icon: "fas fa-shopping-basket"
+    text:
+      en: '4\. Receive your order at your doorstep.'
+      fr: '4\. Recevez votre commande à votre porte.'
+    path:
+      en: "/products/"
+      fr: "/fr/produits/"

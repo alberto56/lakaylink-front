@@ -1,0 +1,25 @@
+header:
+- path:
+    en: "/"
+    fr: "/fr/"
+  title:
+    en: "Home"
+    fr: "Accueil"
+- path:
+    en: "/products/"
+    fr: "/fr/produits/"
+  title:
+    en: "Products"
+    fr: "Produits"
+- path:
+    en: "https://www.google.com/maps/d/viewer?hl=en&mid=1kTrqy1gQNNubT6uPOFsTLOwsjDIuYmA&ll=19.461806183224123%2C-72.67540890000001&z=14"
+    fr: "https://www.google.com/maps/d/viewer?hl=en&mid=1kTrqy1gQNNubT6uPOFsTLOwsjDIuYmA&ll=19.461806183224123%2C-72.67540890000001&z=14"
+  title:
+    en: "Service area"
+    fr: "Zone de service"
+- path:
+    en: "https://lakaybeta.dcycleproject.org/custom-login"
+    fr: "https://lakaybeta.dcycleproject.org/fr/custom-login"
+  title:
+    en: "Login"
+    fr: "Connexion"
