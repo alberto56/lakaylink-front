@@ -25,7 +25,7 @@ Technical setup
 Typical usage scenario
 -----
 
-* 1. Outside of this Drupal site, the **amdministrator** maintains a **Google Sheet template** at https://docs.google.com/spreadsheets/d/12x-ANhpnkr_QO8QmXhWKdoCUA-qMRaxDh0wT-yLSqAI/.
+* 1. Outside of this Drupal site, the **administrator** maintains a **Google Sheet template** at https://docs.google.com/spreadsheets/d/12x-ANhpnkr_QO8QmXhWKdoCUA-qMRaxDh0wT-yLSqAI/.
 * 2. Outside of this Drupal site, the **Google Sheet template** is available to the world in read-only mode: if you open an incognito window in Chrome, you can see its contents (view only).
 * 3. Outside of this Drupal site, the **Google Sheet template** is available in write mode to administrators.
 * 4. [to fix in https://github.com/alberto56/lakaylink-front/issues/4] Outside of this Drupal site, the **Google Sheet** contains mock products, and each product contains, in the image_url column, an image associated with the product. The image URL should be visible to the world.
