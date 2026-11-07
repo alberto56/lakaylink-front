@@ -68,3 +68,116 @@ About the theme
 -----
 
 The theme comes from <https://themewagon.com/themes/electro-bootstrap/> under the [Theme Wagon License](https://themewagon.com/license/).
+
+units-conversion.
+-----
+
+Products have different units of measurement. Examples: 1 kg = 2.205 lb.
+
+we have to add conversion values in docs/_data/units-conversion.yml.
+
+    ```
+        weight:
+        lb:
+            label:
+            fr: lb
+            en: lb
+            kg: 0.453592
+        kg:
+            label:
+            fr: kg
+            en: kg
+            kg: 1
+
+    ```
+
+LakayConvert.convert('weight', 1, 'lb', ‘kg’, 'path/to/conversion.json’, callback, err) which should call callback(0.453592) if 'path/to/conversion.json’ exists with all the info. If there is any problem such as the file doesn’t exist or doesn't have valid json, or the source (lb) or dest (kg) does not exist, or if the category weight does not exist, then err(err) is called with the error.
+
+function called LakayCovert.selfTest() which will make sure the conversion happens well with different examples.
+
+Usage examples:
+--------
+
+    Example A: Convert pounds to kilograms
+    ```
+        LakayConvert.convert(
+            'weight',
+            1,
+            'lb',
+            'kg',
+            '/json/units-conversion.json',
+
+            function(result) {
+                console.log(result);
+                // 0.453592
+            },
+
+            function(error) {
+                console.error(error);
+            }
+        );
+    ```
+
+    Example B: Convert kilograms to pounds
+    ```
+        LakayConvert.convert(
+            'weight',
+            10,
+            'kg',
+            'lb',
+            '/json/units-conversion.json',
+
+            function(result) {
+                console.log(result);
+                // Approximately 22.0462
+            },
+
+            function(error) {
+                console.error(error);
+            }
+        );
+    ```
+
+    Example C: Handle errors
+
+    ```
+       LakayConvert.convert(
+            'weight',
+            1,
+            'lb',
+            'xyz',
+            '/json/units-conversion.json',
+
+            function(result) {
+                console.log(result);
+            },
+
+            function(error) {
+                console.error('Conversion error:', error.message);
+            }
+        );
+    ```
+
+    Expected error:
+
+    Destination unit "xyz" does not exist.
+
+    Example D: Use an already loaded JSON object
+    ```
+        const conversionData = {
+            weight: {
+                lb: { kg: 0.453592 },
+                kg: { kg: 1 }
+            }
+        };
+
+        LakayConvert.convert(
+            'weight',
+            1,
+            'lb',
+            'kg',
+            conversionData,
+            result => console.log(result),
+            error => console.error(error)
+        );
+    ```

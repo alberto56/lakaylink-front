@@ -1,0 +1,30 @@
+weight:
+  lb:
+    label:
+      fr: lb
+      en: lb
+    kg: 0.453592
+  kg:
+    label:
+      fr: kg
+      en: kg
+    kg: 1
+
+length:
+  km:
+    label:
+      fr: km
+      en: km
+    m: 1000
+
+  m:
+    label:
+      fr: m
+      en: m
+    m: 1
+
+  cm:
+    label:
+      fr: cm
+      en: cm
+    m: 0.01
